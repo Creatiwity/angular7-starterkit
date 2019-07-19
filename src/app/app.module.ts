@@ -6,8 +6,6 @@ import {
   BrowserAnimationsModule
 } from '@angular/platform-browser/animations';
 
-import { FormsModule } from '@angular/forms';
-
 // Components
 import { AppComponent } from './app.component';
 
@@ -42,7 +40,6 @@ export function jwtOptionsFactory() {
   imports: [
     BrowserModule,
     HttpClientModule,
-    FormsModule,
     NoopAnimationsModule,
     BrowserAnimationsModule,
     RouterModule.forRoot(appRoutes, { enableTracing: false }),
