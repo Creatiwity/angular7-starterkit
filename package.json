@@ -27,7 +27,7 @@
     "rxjs": "^6.5.2",
     "tslib": "^1.9.3",
     "zone.js": "^0.8.29",
-    "lodash": ">=4.17.13",
+    "lodash": ">=4.17.19",
     "popper.js": "^1.15.0"
   },
   "devDependencies": {
